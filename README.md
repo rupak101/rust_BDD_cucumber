@@ -42,7 +42,7 @@ docker run --env-file .env api_test
 ```
 
 # Future Enhancement :
-  * Keep all sensitive data in secure vault, add integration to fetch the value from the vault.Benefit - we can change the key anytime without changing any code.
+  * Keep all sensitive data in secure vault, add integration to fetch the value from the vault.Benefit - we can change the key anytime without changing any code.I have added into .env file for testing purposes.
   * Make more modular and optimize the code(As This is my first project in Rust language)
   * Deep response validation for API requests.
   * Negative scenarios can be added to the test suite.
