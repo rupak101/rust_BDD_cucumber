@@ -53,4 +53,3 @@ docker run --env-file .env api_test
 - Rust Docs: https://www.rust-lang.org/
 - Cucumber : https://cucumber.io/
 - Gherkin : https://cucumber.io/docs/gherkin/reference/
-# tech_challenge
