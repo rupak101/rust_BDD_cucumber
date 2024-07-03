@@ -1,0 +1,23 @@
+[package]
+name = "tech_challenge"
+version = "0.1.0"
+edition = "2021"
+authors = ["Rupak Mansingh"]
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.11.27", features = ["json", "native-tls", "blocking"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+dotenv = "0.15"
+base64 = "0.13.0"
+hmac = "0.12.1"
+sha2 = "0.10.2"
+
+[dev-dependencies]
+cucumber = "0.20" 
+async-std = "1.10.0"
+
+[[test]]
+name = "step_definition" # this should be the same as the filename of test target
+harness = false  # allows Cucumber to print output instead of libtest
